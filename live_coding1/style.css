@@ -1,0 +1,67 @@
+div {
+    text-align:center;
+    color:white;
+    font-family: helvetica;
+    
+}
+
+h1,h2{
+    margin : 0px;
+    padding : 0px;
+}
+
+h1 {
+    font-size: 180px;
+    padding : 0 !important;
+}
+
+h2 {
+    font-size: 50px;
+   }
+
+   
+
+h3 {
+    font-size: 25px;
+    position : relative;
+    bottom: 0px;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+  }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+
+  .leprincipal {
+    position : absolute;
+    bottom: 0px;
+    right: 500px;
+  }
+
+  #trait {
+      margin-top: 0px;
+      padding-top: 0px;
+  }
