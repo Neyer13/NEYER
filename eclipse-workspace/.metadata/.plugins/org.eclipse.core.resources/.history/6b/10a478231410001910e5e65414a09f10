@@ -1,0 +1,34 @@
+package com.projet2.inter;
+
+public class Complexe implements Operation {
+	
+	double re;
+	double im;
+	
+	public Complexe(double re, double im) {
+		this.re=re;
+		this.im=im;
+	}
+	
+	public Object moin(Object obj) {
+		
+		Complexe plus = (Complexe) obj;
+		
+		double resultatRe;
+		double resultatIm;
+		
+		
+		
+		return obj;
+		
+	}
+	
+	public void plus() {
+		
+	}
+	
+	public void affiche() {
+		
+	}
+
+}

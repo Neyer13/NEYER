@@ -1,0 +1,12 @@
+
+public class Palandrome {
+	
+	String mot;
+	
+	public Palandrome(String mot) {
+		
+		this.mot=mot;
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Tableaux2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Entrez la taille de la matrice : ");
+		
+		int matrice = sc.nextInt();
+		
+		int[][] tab = new [matrice][matrice];
+	}
+
+}

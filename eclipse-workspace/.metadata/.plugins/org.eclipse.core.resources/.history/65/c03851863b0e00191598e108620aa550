@@ -1,0 +1,11 @@
+
+public class TestTableau {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Tableaux tableau1 = new Tableaux({1,2});
+
+	}
+
+}

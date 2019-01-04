@@ -1,0 +1,15 @@
+
+public class EssaiAmi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Personne personneSeule=new Personne("Ben");
+		Personne ami1;
+		Personne ami2;
+		
+		System.out.println(personneSeule);
+
+	}
+
+}

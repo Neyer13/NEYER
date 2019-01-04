@@ -1,0 +1,23 @@
+
+public class EssaiAmi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Personne personneSeule = new Personne("Amelie");
+		
+		Personne ami1 = new Personne("Paul");
+		
+		Personne neyer = new Personne("neyer");
+		
+		Personne ami2 = new Personne("Jean",ami1);
+		
+		ami1.setAmi(ami2);
+		System.out.println(personneSeule);
+		System.out.println(ami1);
+		System.out.println(ami2);
+		System.out.println(ami2.ami);
+		
+	}
+
+}

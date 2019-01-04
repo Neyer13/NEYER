@@ -1,0 +1,63 @@
+
+public class Tableaux {
+	
+	int[] tab;
+	
+	int[] tab1;
+	
+	public Tableaux(int[]tab) {
+		this.tab = tab;
+	}
+	
+	public void replir1() {
+		
+		for(int i = 0; i < 4 ; i++) {
+			
+			tab[i]=i;
+			//tab1[i]=i;
+		}
+		
+		affiche();
+	}
+	
+	public void remplir2() {
+		for(int i = 0; i<tab.length;i++) {
+			
+			tab[i]=i+5;	
+		}
+		
+		affiche();
+	}
+	
+	public void remplir3() {
+		
+		int nb = tab.length;
+		
+		for(int i = nb; i > 0; i--) {
+			
+			tab[i]=i;
+			
+		}
+		
+	}
+	
+	public void operation2() {
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	public void affiche() {
+		
+		for(int j = 0; j < tab.length;j++) {
+			
+			System.out.print(tab[j]);
+			
+		}
+		System.out.println("");
+	}
+}

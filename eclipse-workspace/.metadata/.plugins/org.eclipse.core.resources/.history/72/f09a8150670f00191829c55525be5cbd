@@ -1,0 +1,6 @@
+
+public class TestTableau {
+	
+	Tableaux t1 = new Tableaux(new int[]{1,34});
+
+}

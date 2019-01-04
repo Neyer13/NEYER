@@ -1,0 +1,8 @@
+
+public class Segment {
+
+	int segMax;
+	int segMin;
+	
+	
+}

@@ -1,0 +1,15 @@
+
+public class Segment {
+
+	int segMax;
+	int segMin;
+	int testSegment;
+	
+	public void calculeLongueur() {
+		
+		System.out.println("Longeur du segment [");
+		
+	}
+	
+	
+}

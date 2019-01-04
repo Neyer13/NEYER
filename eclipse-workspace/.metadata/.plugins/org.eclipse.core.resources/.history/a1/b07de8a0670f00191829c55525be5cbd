@@ -1,0 +1,13 @@
+
+public class TestTableaux {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Tableaux t1 = new Tableaux(new int[]{1,34});
+		t1.remplir1();
+
+
+	}
+
+}

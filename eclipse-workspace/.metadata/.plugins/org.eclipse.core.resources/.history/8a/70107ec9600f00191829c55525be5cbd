@@ -1,0 +1,18 @@
+
+public class Palandrome {
+	
+	String mot;
+	
+	public Palandrome(String mot) {
+		
+		this.mot=mot;
+		
+	}
+	
+	public void inverser() {
+		
+		String inverse = new StringBuilder(mot).reverse().toString();
+		
+	}
+
+}

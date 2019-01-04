@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Tableaux2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Entrez la taille de la matrice : ");
+		
+		int matrice = sc.nextInt();
+		
+		int[][] tab = new int [matrice][matrice];
+		
+		for (int i = 0 ; i < matrice ; i++) {
+			
+			for(int j = 0 ; j < 0 ; j++) {
+				
+				System.out.println("Entre le chiffe dans la ligne "+i+" et colone "+j+" : ");
+				
+			}
+			
+		}
+	}
+
+}

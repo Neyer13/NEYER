@@ -1,0 +1,17 @@
+package com.projet2.inter;
+
+public class Complexe {
+	
+	public void moin() {
+		
+	}
+	
+	public void plus() {
+		
+	}
+	
+	public void affiche() {
+		
+	}
+
+}

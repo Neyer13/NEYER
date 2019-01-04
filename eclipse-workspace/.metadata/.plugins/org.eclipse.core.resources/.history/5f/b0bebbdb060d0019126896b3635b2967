@@ -1,0 +1,13 @@
+
+public class testPalandrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Palandrome<String> mot = new Palandrome<String>(Arrays.asList(new String[] { "2", "3", "5", "7", "11" }));
+		
+		mot.inversion();
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package com.projet2.inter;
+
+public class Complexe {
+	
+	double re;
+	double im;
+	
+	public void moin() {
+		
+	}
+	
+	public void plus() {
+		
+	}
+	
+	public void affiche() {
+		
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.projet.inter;
+
+import java.sql.Date;
+
+public class Personne {
+	
+	int id;
+	String nom;
+	String prenom;
+	Date dateNais;
+	double salaire;
+	
+	public Personne(String nom, String prenom, Date dateNais, double salaire) {
+		this.nom=nom;
+		this.prenom=prenom;
+		this.dateNais=dateNais;
+		this.salaire=salaire;
+	}
+	
+	
+	public void affiche() {
+		
+		System.out.println("Je suis le directeur "+nom+prenom+" né le "+dateNais+", mon salaire mensuel est "+calculeSalaire()+" Euro.");
+		
+	}
+	
+	public double calculeSalaire() {
+		double vraiSalire;
+		
+		vraiSalire = salaire + (salaire*0.2);
+		
+		return vraiSalire;
+		
+		
+	}
+
+}

@@ -1,0 +1,50 @@
+
+public class Palandrome {
+	
+	
+
+	/*void Palamdrome(String[] motTab){
+		
+		this.motTab=motTab;
+	}*/
+	
+	/*public String[] inversion() {
+		
+		String lettre;
+		
+		for (int i=0; i>motTab.length;i++) {
+			
+			lettre = motTab[i];
+			System.out.println(lettre);
+		}
+		return tabMot;	
+	 }	*/
+	
+	
+	public static void main(String[] args) {
+	
+		/*String[] motTab = {"Neyer"};
+		int[] tabMot = new int[motTab.length];*/
+		
+        String lettre = "Neyer";
+       
+        
+		/*for (int i = 0; i < motTab.length;i++) {
+			
+			lettre = motTab[i];
+			System.out.println(lettre);
+			
+		}
+		for (int j = 0; j < motTab.length ; j++) {
+				
+			
+			motTab.
+				
+			System.out.println(lettre);
+		}*/
+		
+		
+			StringBuffer sb = (new StringBuffer(lettre)).reverse();
+	    	System.out.println(sb);
+	}
+}

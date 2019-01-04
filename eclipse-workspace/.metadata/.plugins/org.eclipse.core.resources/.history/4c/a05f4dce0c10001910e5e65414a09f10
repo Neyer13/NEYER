@@ -1,0 +1,31 @@
+package com.projet2.inter;
+
+public class Complexe {
+	
+	double re;
+	double im;
+	
+	class Complexe(double re, double im) {
+		this.re=re;
+		this.im=im;
+	}
+	
+	public void moin() {
+		
+		double resultatRe;
+		double resultatIm;
+		
+		
+		
+		
+	}
+	
+	public void plus() {
+		
+	}
+	
+	public void affiche() {
+		
+	}
+
+}
